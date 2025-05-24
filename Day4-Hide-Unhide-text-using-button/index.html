@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Highlight Matching Items</title>
-
-    <!-- Bootstrap CSS -->
+    <title>Document</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,27 +15,12 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <div class="container mt-5">
-      <!-- Code starts from here -->
-      <!-- Search input -->
-      <input
-        type="text"
-        id="searchInput"
-        class="form-control"
-        placeholder="Search..."
-      />
-      <ul id="itemList" class="list-group mt-3">
-        <li class="list-group-item">AppleApp</li>
-        <li class="list-group-item">Banana</li>
-        <li class="list-group-item">Cherry</li>
-        <li class="list-group-item">Date</li>
-        <li class="list-group-item">Elderberry</li>
-        <li class="list-group-item">Fig</li>
-        <li class="list-group-item">Grape</li>
-      </ul>
-      <!-- Code ends here -->
+      <button class="collapse-button"></button>
+      <div class="content">
+        <p>The content here can be can be seen now</p>
+      </div>
     </div>
 
     <div class="container social mt-5">
@@ -57,10 +40,6 @@
       </a>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
