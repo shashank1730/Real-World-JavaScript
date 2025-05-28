@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        
+        <label for="timer">Set Timer for</label>
+        <input class="time" id ="time" type="number" min="1" max="1000">
+        <div id="warning">
+        Please enter a number between 1 and 1000.
+        </div>
+        <button id="timerbtn" type="submit">Set Timer</button>
+        <!-- <h2 class="heading" id="heading">Countdown Timer</h2> -->
+        <p id="timeleft">00:00:00</p>
+        
+    </div>
+
+
+    <div class="container social mt-5">
+      <a
+        href="https://www.instagram.com"
+        target="_blank"
+        class="btn btn-outline-primary"
+      >
+        <i class="fab fa-instagram"></i> Watch Instagram Video
+      </a>
+      <a
+        href="https://www.youtube.com"
+        target="_blank"
+        class="btn btn-outline-danger"
+      >
+        <i class="fab fa-youtube"></i> Visit YouTube Channel
+      </a>
+    <script src="script.js"></script>
+</body>
+</html>

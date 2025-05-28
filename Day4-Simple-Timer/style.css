@@ -1,0 +1,37 @@
+h2{
+    font: bolder;
+    margin-bottom: 8px;
+    
+}
+
+#warning {
+    color: red; 
+    display: none; 
+    margin-top: 5px;
+}
+
+#time {
+    margin-left: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#timeleft {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#timerbtn{
+    border: none;
+    margin-left: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: small;
+}
+
+#timerbtn:hover{
+    background-color: rgb(97, 245, 245);
+    
+}
+
