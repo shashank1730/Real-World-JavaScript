@@ -1,0 +1,46 @@
+.nav-bar{
+    display: none;
+    
+}
+.nav-bar.visible{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 48px);
+    height: 8vh;
+    background-color: rgba(203, 203, 203, 0.5);
+    margin: 0 24px;    
+    border-radius: 16px;
+    z-index: 1000;
+    
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.nav-btn{
+    display: flex;
+    align-items: center;
+    height: calc(100% - 8px);
+    padding: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.nav-btn:hover{
+    
+    background-color:rgb(133, 133, 133);
+    padding: 16px;
+    transition: top 1s;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+    
+    
+}
